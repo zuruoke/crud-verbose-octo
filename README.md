@@ -1,15 +1,14 @@
 # CRUD_Application_Node
 In this project, we are going to create node CRUD application with express and mongodb.
 
-#### To Run this project Clone it and install modules using
+#### To Run this project Clone it
 ```
-npm install
+git clone --branch main https://github.com/zuruoke/crud-verbose-octo.git
 ```
 
-Then Create config.env file and create PORT and MONGO_URI Variable and specify Value.
-That's it. You are ready to go. To execute this project just type
+That's it. You are ready to go. To execute this project just start the docker container using the docker-compose file
 ```
-npm start
+docker-compose up
 ```
 
 Enjoy...!
