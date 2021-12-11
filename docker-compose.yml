@@ -3,7 +3,7 @@ services:
   myapplication:
     image: 389811146215.dkr.ecr.us-east-2.amazonaws.com/crud-app:1.0
     environment: 
-      - MONGODB_CONNSTRING=mongodb+srv://admin:marcusrashford10@cluster0.yc4ft.mongodb.net/users?retryWrites=true&w=majority
+      - MONGODB_CONNSTRING=mongodb+srv://admin:gerry@cluster0.yc4ft.mongodb.net/users?retryWrites=true&w=majority
       - PORT=3000
     ports:
       - 3000:3000
